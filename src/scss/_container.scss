@@ -1,0 +1,22 @@
+// _container.scss
+
+@mixin make-container() {
+    width: 100%;
+    padding-right: spacer(3);
+    padding-left: spacer(3);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    @include make-container();
+}
+
+.container {
+    @include make-container();
+    @each $key, $px in $container-max-widths {
+        @include breakpoint($key) {
+            max-width: map-get($container-max-widths, $key);
+        }
+    }
+}
