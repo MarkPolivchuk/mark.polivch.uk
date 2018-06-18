@@ -1,4 +1,4 @@
-import ExtractTextPlugin from 'extract-text-webpack-plugin'
+import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
 export default {
   getSiteData: () => ({
@@ -7,7 +7,7 @@ export default {
   getRoutes: async () => [
     {
       path: '/',
-      component: 'src/containers/Home',
+      component: 'src/containers/home',
     },
     // {
 
@@ -17,10 +17,10 @@ export default {
     },
   ],
   webpack: (config, { defaultLoaders, stage }) => {
-    let loaders = []
+    let loaders = [];
 
     if (stage === 'dev') {
-      loaders = [{ loader: 'style-loader' }, { loader: 'css-loader' }, { loader: 'sass-loader' }]
+      loaders = [{ loader: 'style-loader' }, { loader: 'css-loader' }, { loader: 'sass-loader' }];
     } else {
       loaders = [
         {
@@ -35,7 +35,7 @@ export default {
           loader: 'sass-loader',
           options: { includePaths: ['src/'] },
         },
-      ]
+      ];
 
       // Don't extract css to file during node build process
       if (stage !== 'node') {
@@ -48,7 +48,7 @@ export default {
             },
           },
           use: loaders,
-        })
+        });
       }
     }
 
@@ -64,7 +64,7 @@ export default {
           defaultLoaders.fileLoader,
         ],
       },
-    ]
-    return config
+    ];
+    return config;
   },
-}
+};

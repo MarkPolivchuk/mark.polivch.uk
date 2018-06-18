@@ -1,5 +1,10 @@
-@import "variables";
-@import "functions";
-@import "mixins";
+@import "core/variables";
+@import "core/functions";
+@import "core/mixins";
 
-@import "container";
+@import "core/flex";
+
+.container, .container-fluid {
+    padding-right: spacer(3);
+    padding-left: spacer(3);
+}

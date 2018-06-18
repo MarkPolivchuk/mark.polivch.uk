@@ -1,0 +1,33 @@
+// mostly ripped off from bootstrap but not responsive
+// TODO: make responsive selectable
+
+.d-flex { display: flex; }
+
+.flex-row   { flex-direction: row; }
+.flex-row-r { flex-direction: row-reverse; }
+.flex-col   { flex-direction: column; }
+.flex-col-r { flex-direction: column-reverse; }
+
+.flex-wrap      { flex-wrap: wrap; }
+.flex-nowrap    { flex-wrap: nowrap; }
+.flex-wrap-r    { flex-wrap: wrap-reverse; }
+.flex-fill      { flex: 1 1 auto; }
+
+.justify-content-start   { justify-content: flex-start; }
+.justify-content-end     { justify-content: flex-end; }
+.justify-content-center  { justify-content: center; }
+.justify-content-between { justify-content: space-between; }
+.justify-content-around  { justify-content: space-around; }
+
+.align-items-start    { align-items: flex-start; }
+.align-items-end      { align-items: flex-end; }
+.align-items-center   { align-items: center; }
+.align-items-baseline { align-items: baseline; }
+.align-items-stretch  { align-items: stretch; }
+
+.align-content-start   { align-content: flex-start; }
+.align-content-end     { align-content: flex-end; }
+.align-content-center  { align-content: center; }
+.align-content-between { align-content: space-between; }
+.align-content-around  { align-content: space-around; }
+.align-content-stretch { align-content: stretch; }
