@@ -12,7 +12,6 @@
   "dependencies": {
     "add": "^2.0.6",
     "axios": "^0.16.2",
-    "flexboxgrid": "^6.3.1",
     "normalize.css": "^8.0.0",
     "prop-types": "^15.6.1",
     "react": "^16.0.0",
