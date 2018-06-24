@@ -1,13 +1,9 @@
 import React from 'react';
 import { withSiteData } from 'react-static';
 
-import { Container } from '../components';
-
 export default withSiteData(() => (
-  <div>
-    <Container>
-      Test
-    </Container>
+  <div className="container mx-auto px-3">
+    Test
   </div>
 ));
 

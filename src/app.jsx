@@ -4,7 +4,7 @@ import { hot } from 'react-hot-loader';
 //
 import Routes from 'react-static-routes'; /* eslint-ignore */
 
-import 'normalize.css';
+import './styles.css';
 
 const App = () => (
   <Router>
