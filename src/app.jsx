@@ -9,7 +9,7 @@ import './styles.css';
 const App = () => (
   <Router>
     <div>
-      <div className="content">
+      <div className="content h-full bg-green">
         <Routes />
       </div>
     </div>
