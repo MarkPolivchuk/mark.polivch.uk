@@ -2,7 +2,7 @@ import React from 'react';
 import { withSiteData } from 'react-static';
 
 import { Container, Row, Col } from '../components/tailwindcss';
-import { IconLabel, Badge } from '../components/application';
+import { IconLabel, Badge, Card } from '../components/application';
 
 const languages = [
   'JavaScript',
@@ -33,7 +33,7 @@ const applications = [
 
 export default withSiteData(() => (
   <div>
-    <Container padding={0} className="bg-white shadow-md sm:rounded-lg mb-4 pb-2 text-black">
+    <Container padding={0} className="bg-white shadow-lg sm:rounded-lg mb-4 pb-2 text-black">
       <div className="bg-cover-img border-b border-grey">
         <img src="/assets/img/cover.jpg" className="profile-img rounded-full border-white border-4 shadow-md block md:inline-block mx-auto md:mx-8 " alt="Profile" />
       </div>
@@ -70,41 +70,51 @@ export default withSiteData(() => (
     </Container>
     <Container padding={0}>
       <Row className="-mx-2">
-        <Col md="1/3" className="mx-2 p-4 bg-white shadow-md sm:rounded-lg border-t-4 border-red mb-4">
-          <h3 className="text-black mb-4 flex-1 font-light">Education</h3>
-          <div className="mb-8 flex align-leading">
-            <a href="https://www.ucalgary.ca/" target="_blank" rel="noopener noreferrer" alt="University of Calgary">
-              <img src="/assets/img/uofc.jpg" className="h-12 w-12 rounded inline-block mr-2 border border-grey-light" alt="University of Calgary" />
-            </a>
-            <div className="flex-1 inline-block">
-              <p className="font-bold mb-2">University of Calgary</p>
-              <IconLabel label="Calgary, AB" icon="map-marker-alt" />
-              <IconLabel label="Majored in Computer Science" icon="code-branch" />
-              <IconLabel label="Minored in Pure Math" icon="calculator" />
-              <IconLabel label="Graduated in 2015" icon="graduation-cap" />
-            </div>
-          </div>
-          <div className="mb-8 flex align-leading">
-            <a href="http://schools.cbe.ab.ca/b816/" target="_blank" rel="noopener noreferrer" alt="Western Canada High School">
-              <div className="h-12 w-12 flex items-center h-12 w-12 rounded inline-block border border-grey-light mr-2" alt="Western Canada High School">
-                <img src="/assets/img/wchs.png" className="" alt="Profile" />
+        <Col md="1/3" className="px-2 mb-4">
+          <Card className="sm:rounded-lg border-t-4 border-red">
+            <h3 className="text-black mb-4 flex-1 font-light">Education</h3>
+            <div className="mb-8 flex align-leading">
+              <a href="https://www.ucalgary.ca/" target="_blank" rel="noopener noreferrer" alt="University of Calgary">
+                <img src="/assets/img/uofc.jpg" className="h-12 w-12 rounded inline-block mr-2 border border-grey-light" alt="University of Calgary" />
+              </a>
+              <div className="flex-1 inline-block">
+                <p className="font-bold mb-2">University of Calgary</p>
+                <IconLabel label="Calgary, AB" icon="map-marker-alt" />
+                <IconLabel label="Majored in Computer Science" icon="code-branch" />
+                <IconLabel label="Minored in Pure Math" icon="calculator" />
+                <IconLabel label="Graduated in 2015" icon="graduation-cap" />
               </div>
-            </a>
-            <div className="flex-1 inline-block">
-              <p className="font-bold mb-1">Western Canada High School</p>
-              <IconLabel label="Calgary, AB" icon="map-marker-alt" />
-              <IconLabel label="Graduated in 2011" icon="graduation-cap" />
             </div>
-          </div>
+            <div className="mb-8 flex align-leading">
+              <a href="http://schools.cbe.ab.ca/b816/" target="_blank" rel="noopener noreferrer" alt="Western Canada High School">
+                <div className="h-12 w-12 flex items-center h-12 w-12 rounded inline-block border border-grey-light mr-2" alt="Western Canada High School">
+                  <img src="/assets/img/wchs.png" className="" alt="Profile" />
+                </div>
+              </a>
+              <div className="flex-1 inline-block">
+                <p className="font-bold mb-1">Western Canada High School</p>
+                <IconLabel label="Calgary, AB" icon="map-marker-alt" />
+                <IconLabel label="Graduated in 2011" icon="graduation-cap" />
+              </div>
+            </div>
+          </Card>
         </Col>
-        <Col md="1/3" className="mx-2 p-4 bg-white shadow-md sm:rounded-lg border-t-4 border-blue mb-4">
-          <h3 className="text-black mb-4 flex-1 font-light">Skills</h3>
-          <div className="flex flex-wrap align-start justify-start leading-normal">
-            { languages.map(l => <Badge color="green">{l}</Badge>)}
-            { frameworks.map(l => <Badge color="orange">{l}</Badge>)}
-            { tools.map(l => <Badge color="purple">{l}</Badge>)}
-            { applications.map(l => <Badge color="teal">{l}</Badge>)}
-          </div>
+        <Col md="1/3" className="px-2 mb-4">
+          <Card className="sm:rounded-lg border-t-4 border-blue">
+            <h3 className="text-black mb-4 flex-1 font-light">Skills</h3>
+            <div className="flex flex-wrap align-start justify-start leading-normal">
+              { languages.map(l => <Badge color="green">{l}</Badge>)}
+              { frameworks.map(f => <Badge color="orange">{f}</Badge>)}
+              { tools.map(t => <Badge color="purple">{t}</Badge>)}
+              { applications.map(a => <Badge color="teal">{a}</Badge>)}
+            </div>
+          </Card>
+        </Col>
+        <Col md="1/3" className="px-2 mb-4">
+          <Card className="sm:rounded-lg border-t-4 border-yellow-dark">
+            <h3 className="text-black mb-4 flex-1 font-light">Employment</h3>
+
+          </Card>
         </Col>
       </Row>
     </Container>
