@@ -71,13 +71,12 @@
   }
 
   .profile-img {
-    @apply relative;
+    /* @apply relative; */
     @apply h-48;
     @apply w-48;
-    bottom: -60%;
+    /* bottom: -60%; */
   }
 
-  svg {
-    width: auto;
-    height: 100%;
+  * {
+    font-family: 'Palanquin', sans-serif;
   }

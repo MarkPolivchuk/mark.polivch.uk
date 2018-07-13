@@ -195,6 +195,7 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Palanquin',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
