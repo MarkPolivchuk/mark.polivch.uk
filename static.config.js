@@ -24,6 +24,7 @@ export default {
   paths: {
     dist: 'docs'
   },
+  basePath: 'portfolio',
   getRoutes: async () => {
     return [
       {
