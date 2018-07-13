@@ -62,7 +62,7 @@
   */
 
   .bg-cover-img {
-    background-image: url('/assets/img/cover.jpg');
+    background-image: url('/portfolio/assets/img/cover.jpg');
     background-size: cover;
 
     @apply bg-center;
