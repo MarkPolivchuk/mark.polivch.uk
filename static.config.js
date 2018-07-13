@@ -21,6 +21,9 @@ export default {
   getSiteData: () => ({
     title: 'Mark Polivchuk',
   }),
+  paths: {
+    dist: 'docs'
+  },
   getRoutes: async () => {
     return [
       {
@@ -81,6 +84,7 @@ export default {
         use: loaders,
       })
     }
+    config.plugins.push(new ExtractTextPlugin('styles.css'))
 
     config.module.rules = [
       {
