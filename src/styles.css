@@ -60,3 +60,21 @@
   * @import "utilities/background-patterns";
   * @import "utilities/skew-transforms";
   */
+
+  .bg-cover-img {
+    background-image: url('/assets/img/cover.jpg');
+    background-size: cover;
+
+    @apply bg-center;
+    @apply h-64;
+    
+  }
+
+  .profile-img {
+    @apply relative;
+    @apply h-48;
+    @apply w-48;
+    bottom: -60%;
+  }
+
+ 
