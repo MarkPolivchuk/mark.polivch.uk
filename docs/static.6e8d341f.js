@@ -260,21 +260,21 @@ exports.default = (0, _reactHotLoader.hot)(module)(App);
 /* 7 */
 /***/ (function(module, exports) {
 
-module.exports = function (module) {
-	if (!module.webpackPolyfill) {
-		module.deprecate = function () {};
+module.exports = function(module) {
+	if(!module.webpackPolyfill) {
+		module.deprecate = function() {};
 		module.paths = [];
 		// module.parent = undefined by default
-		if (!module.children) module.children = [];
+		if(!module.children) module.children = [];
 		Object.defineProperty(module, "loaded", {
 			enumerable: true,
-			get: function () {
+			get: function() {
 				return module.l;
 			}
 		});
 		Object.defineProperty(module, "id", {
 			enumerable: true,
-			get: function () {
+			get: function() {
 				return module.i;
 			}
 		});
@@ -282,6 +282,7 @@ module.exports = function (module) {
 	}
 	return module;
 };
+
 
 /***/ }),
 /* 8 */
@@ -621,28 +622,28 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
               languages.map(function (l) {
                 return _react2.default.createElement(
                   _application.Badge,
-                  { color: 'green' },
+                  { key: l, color: 'green' },
                   l
                 );
               }),
               frameworks.map(function (f) {
                 return _react2.default.createElement(
                   _application.Badge,
-                  { color: 'orange' },
+                  { key: f, color: 'orange' },
                   f
                 );
               }),
               tools.map(function (t) {
                 return _react2.default.createElement(
                   _application.Badge,
-                  { color: 'purple' },
+                  { key: t, color: 'purple' },
                   t
                 );
               }),
               applications.map(function (a) {
                 return _react2.default.createElement(
                   _application.Badge,
-                  { color: 'teal' },
+                  { key: a, color: 'teal' },
                   a
                 );
               })
@@ -1022,14 +1023,14 @@ exports.push([module.i, "/*! normalize.css v7.0.0 | MIT License | github.com/nec
 	Author Tobias Koppers @sokra
 */
 // css base code, injected by the css-loader
-module.exports = function (useSourceMap) {
+module.exports = function(useSourceMap) {
 	var list = [];
 
 	// return the list of modules as css string
 	list.toString = function toString() {
 		return this.map(function (item) {
 			var content = cssWithMappingToString(item, useSourceMap);
-			if (item[2]) {
+			if(item[2]) {
 				return "@media " + item[2] + "{" + content + "}";
 			} else {
 				return content;
@@ -1038,23 +1039,25 @@ module.exports = function (useSourceMap) {
 	};
 
 	// import a list of modules into the list
-	list.i = function (modules, mediaQuery) {
-		if (typeof modules === "string") modules = [[null, modules, ""]];
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
 		var alreadyImportedModules = {};
-		for (var i = 0; i < this.length; i++) {
+		for(var i = 0; i < this.length; i++) {
 			var id = this[i][0];
-			if (typeof id === "number") alreadyImportedModules[id] = true;
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
 		}
-		for (i = 0; i < modules.length; i++) {
+		for(i = 0; i < modules.length; i++) {
 			var item = modules[i];
 			// skip already imported module
 			// this implementation is not 100% perfect for weird media query combinations
 			//  when a module is imported multiple times with different media queries.
 			//  I hope this will never occur (Hey this way we have smaller bundles)
-			if (typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-				if (mediaQuery && !item[2]) {
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
 					item[2] = mediaQuery;
-				} else if (mediaQuery) {
+				} else if(mediaQuery) {
 					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
 				}
 				list.push(item);
@@ -1074,7 +1077,7 @@ function cssWithMappingToString(item, useSourceMap) {
 	if (useSourceMap && typeof btoa === 'function') {
 		var sourceMapping = toComment(cssMapping);
 		var sourceURLs = cssMapping.sources.map(function (source) {
-			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
 		});
 
 		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
@@ -1092,7 +1095,8 @@ function toComment(sourceMap) {
 	return '/*# ' + data + ' */';
 }
 
+
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.d688e773.js.map
+//# sourceMappingURL=static.6e8d341f.js.map

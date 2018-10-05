@@ -111,10 +111,10 @@ export default withSiteData(() => (
           <Card className="sm:rounded-lg border-t-4 border-blue">
             <h3 className="text-black mb-4 flex-1 font-light">Skills</h3>
             <div className="flex flex-wrap align-start justify-start leading-normal">
-              { languages.map(l => <Badge color="green">{l}</Badge>)}
-              { frameworks.map(f => <Badge color="orange">{f}</Badge>)}
-              { tools.map(t => <Badge color="purple">{t}</Badge>)}
-              { applications.map(a => <Badge color="teal">{a}</Badge>)}
+              { languages.map(l => <Badge key={l} color="green">{l}</Badge>)}
+              { frameworks.map(f => <Badge key={f} color="orange">{f}</Badge>)}
+              { tools.map(t => <Badge key={t} color="purple">{t}</Badge>)}
+              { applications.map(a => <Badge key={a} color="teal">{a}</Badge>)}
             </div>
           </Card>
         </Col>
