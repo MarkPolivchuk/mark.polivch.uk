@@ -5,7 +5,6 @@ const Card = ({ children, className }) => {
   const classNames = [
     'bg-white',
     'shadow-lg',
-    'p-4',
   ];
   if (className) { classNames.push(className); }
   return (

@@ -77,6 +77,11 @@
     /* bottom: -60%; */
   }
 
+  /* screw default focus */
+  *:focus {
+    outline:none;
+  }
+
   * {
     font-family: 'Palanquin', sans-serif;
   }
