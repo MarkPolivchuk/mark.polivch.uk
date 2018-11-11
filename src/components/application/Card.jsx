@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Card = ({ children, className }) => {
   const classNames = [
     'bg-white',
-    'shadow',
+
   ];
   if (className) { classNames.push(className); }
   return (

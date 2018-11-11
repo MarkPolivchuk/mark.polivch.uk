@@ -448,7 +448,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
     { className: 'flex-1 flex flex-col' },
     _react2.default.createElement(
       _tailwindcss.Container,
-      { padding: 0, className: 'bg-white shadow sm:rounded-b-lg mb-8 pb-2 text-black' },
+      { padding: 0, className: 'bg-white my-8 px-4 text-black' },
       _react2.default.createElement(
         'div',
         { className: 'flex my-2 flex-wrap' },
@@ -460,7 +460,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
             { className: 'h-full' },
             _react2.default.createElement(
               _tailwindcss.Col,
-              { md: '3/4', className: 'text-center md:text-left px-8' },
+              { md: '3/4', className: 'text-center md:text-left' },
               _react2.default.createElement(
                 'div',
                 { className: 'flex flex-col justify-center h-full py-2' },
@@ -478,7 +478,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
             ),
             _react2.default.createElement(
               _tailwindcss.Col,
-              { md: '1/4', className: 'text-center md:text-left px-4' },
+              { md: '1/4', className: 'text-center md:text-left' },
               _react2.default.createElement(
                 'div',
                 { className: 'flex justify-center md:justify-end items-center h-full py-2' },
@@ -495,7 +495,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
                 _react2.default.createElement(
                   'a',
                   { href: 'https://twitter.com/MarkPolivchuk', target: '_blank', rel: 'noopener noreferrer', alt: 'Twitter' },
-                  _react2.default.createElement('i', { className: 'fab fa-2x mx-4 fa-twitter text-grey-darkest hover:text-black' })
+                  _react2.default.createElement('i', { className: 'fab fa-2x ml-4 fa-twitter text-grey-darkest hover:text-black' })
                 )
               )
             )
@@ -514,10 +514,10 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
           { md: '1/2', className: 'px-4 flex flex-col' },
           _react2.default.createElement(
             _application.Card,
-            { className: 'sm:rounded-lg border-t-4 border-yellow-dark mb-8 p-4 flex-grow' },
+            { className: 'border-t-4 border-green mb-8 pt-4 px-4 flex-grow' },
             _react2.default.createElement(
               'h3',
-              { className: 'text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4' },
+              { className: 'text-green-dark tracking-wide text-sm font-semibold uppercase mb-8' },
               'Employment'
             ),
             _react2.default.createElement(
@@ -526,7 +526,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
               _react2.default.createElement(
                 'a',
                 { href: 'https://www.mmbr.io/', target: '_blank', rel: 'noopener noreferrer', alt: 'MMBRI.IO' },
-                _react2.default.createElement('img', { src: '/assets/img/mmbr.jpg', className: 'h-12 w-12 rounded inline-block mr-2 border border-grey-light', alt: 'MMBR.IO' })
+                _react2.default.createElement('img', { src: '/assets/img/mmbr.jpg', className: 'h-12 w-12 rounded inline-block mr-4 border border-grey-light', alt: 'MMBR.IO' })
               ),
               _react2.default.createElement(
                 'div',
@@ -550,7 +550,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
               _react2.default.createElement(
                 'a',
                 { href: 'https://www.farcast.com/', target: '_blank', rel: 'noopener noreferrer', alt: 'Farcast' },
-                _react2.default.createElement('img', { src: '/assets/img/farcast.png', className: 'h-12 w-12 rounded inline-block mr-2 border border-grey-light', alt: 'Farcast' })
+                _react2.default.createElement('img', { src: '/assets/img/farcast.png', className: 'h-12 w-12 rounded inline-block mr-4 border border-grey-light', alt: 'Farcast' })
               ),
               _react2.default.createElement(
                 'div',
@@ -572,7 +572,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
               _react2.default.createElement(
                 'a',
                 { href: 'https://www.gpspolice.com/', target: '_blank', rel: 'noopener noreferrer', alt: 'GPS Police' },
-                _react2.default.createElement('img', { src: '/assets/img/gps.png', className: 'h-12 w-12 rounded inline-block mr-2 border border-grey-light', alt: 'GPS Police' })
+                _react2.default.createElement('img', { src: '/assets/img/gps.png', className: 'h-12 w-12 rounded inline-block mr-4 border border-grey-light', alt: 'GPS Police' })
               ),
               _react2.default.createElement(
                 'div',
@@ -594,7 +594,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
               _react2.default.createElement(
                 'a',
                 { href: 'https://hbi.ucalgary.ca//', target: '_blank', rel: 'noopener noreferrer', alt: 'Hotchkiss Brain Institute' },
-                _react2.default.createElement('img', { src: '/assets/img/hbi.jpeg', className: 'h-12 w-12 rounded inline-block mr-2 border border-grey-light', alt: 'Hotchkiss Brain Institute' })
+                _react2.default.createElement('img', { src: '/assets/img/hbi.jpeg', className: 'h-12 w-12 rounded inline-block mr-4 border border-grey-light', alt: 'Hotchkiss Brain Institute' })
               ),
               _react2.default.createElement(
                 'div',
@@ -616,10 +616,10 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
           { md: '1/2', className: 'px-4 flex flex-col' },
           _react2.default.createElement(
             _application.Card,
-            { className: 'sm:rounded-lg border-t-4 border-blue mb-8 p-4 flex-grow' },
+            { className: 'border-t-4 border-blue mb-8 pt-4 px-4 flex-grow' },
             _react2.default.createElement(
               'h3',
-              { className: 'text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4' },
+              { className: 'text-blue-dark tracking-wide text-sm font-semibold uppercase mb-8' },
               'Skills'
             ),
             _react2.default.createElement(
@@ -664,10 +664,10 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
           ),
           _react2.default.createElement(
             _application.Card,
-            { className: 'sm:rounded-lg border-t-4 border-red mb-8 p-4 flex-grow' },
+            { className: 'border-t-4 border-red mb-8 pt-4 px-4 flex-grow' },
             _react2.default.createElement(
               'h3',
-              { className: 'text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4' },
+              { className: 'text-red-dark tracking-wide text-sm font-semibold uppercase mb-8' },
               'Education'
             ),
             _react2.default.createElement(
@@ -676,7 +676,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
               _react2.default.createElement(
                 'a',
                 { href: 'https://www.ucalgary.ca/', target: '_blank', rel: 'noopener noreferrer', alt: 'University of Calgary' },
-                _react2.default.createElement('img', { src: '/assets/img/uofc.jpg', className: 'h-12 w-12 rounded inline-block mr-2 border border-grey-light', alt: 'University of Calgary' })
+                _react2.default.createElement('img', { src: '/assets/img/uofc.jpg', className: 'h-12 w-12 rounded inline-block mr-4 border border-grey-light', alt: 'University of Calgary' })
               ),
               _react2.default.createElement(
                 'div',
@@ -700,11 +700,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
               _react2.default.createElement(
                 'a',
                 { href: 'http://schools.cbe.ab.ca/b816/', target: '_blank', rel: 'noopener noreferrer', alt: 'Western Canada High School' },
-                _react2.default.createElement(
-                  'div',
-                  { className: 'h-12 w-12 flex items-center h-12 w-12 rounded inline-block border border-grey-light mr-2', alt: 'Western Canada High School' },
-                  _react2.default.createElement('img', { src: '/assets/img/wchs.png', className: '', alt: 'Profile' })
-                )
+                _react2.default.createElement('img', { src: '/assets/img/wchs.png', className: 'h-12 w-12 rounded inline-block mr-4 border border-grey-light', alt: 'Western Canada High School' })
               ),
               _react2.default.createElement(
                 'div',
@@ -727,10 +723,10 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
       { className: 'flex-1 flex-col' },
       _react2.default.createElement(
         _application.Card,
-        { className: 'sm:rounded-lg border-t-4 border-orange mb-8 p-4 flex-1 h-full' },
+        { className: 'border-t-4 border-orange mb-8 pt-4 px-4 flex-1 h-full' },
         _react2.default.createElement(
           'h3',
-          { className: 'text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4' },
+          { className: 'text-orange-dark tracking-wide text-sm font-semibold uppercase mb-8' },
           'About me'
         ),
         _react2.default.createElement(
@@ -761,13 +757,14 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
             _react2.default.createElement(
               'form',
               { action: 'submit', className: 'flex flex-col h-full' },
-              _react2.default.createElement('input', { type: 'email', className: 'mb-4 p-4 bg-grey-lighter focus:bg-grey-lightest border-2 border-grey-lighter hover:border-grey-light focus:border-grey hover:cursor-pointer rounded-lg font-bold', placeholder: 'Email' }),
-              _react2.default.createElement('input', { type: 'text', className: 'mb-4 p-4 bg-grey-lighter focus:bg-grey-lightest border-2 border-grey-lighter hover:border-grey-light focus:border-grey hover:cursor-pointer rounded-lg font-bold', placeholder: 'Subject' }),
-              _react2.default.createElement('textarea', { name: 'body', id: '', rows: '6', className: 'flex-grow mb-4 p-4 bg-grey-lighter focus:bg-grey-lightest border-2 border-grey-lighter hover:border-grey-light focus:border-grey hover:cursor-pointer rounded-lg font-bold', placeholder: 'What do you want to know?' }),
+              _react2.default.createElement('input', { type: 'email', className: 'mb-4 p-4 bg-grey-lightest focus:bg-grey-lightest border-2 border-grey-lighter hover:border-grey-light focus:border-grey hover:cursor-pointer rounded-lg font-bold', placeholder: 'Email' }),
+              _react2.default.createElement('input', { type: 'text', className: 'mb-4 p-4 bg-grey-lightest focus:bg-grey-lightest border-2 border-grey-lighter hover:border-grey-light focus:border-grey hover:cursor-pointer rounded-lg font-bold', placeholder: 'Subject' }),
+              _react2.default.createElement('textarea', { name: 'body', id: '', rows: '6', className: 'flex-grow mb-4 p-4 bg-grey-lightest focus:bg-grey-lightest border-2 border-grey-lighter hover:border-grey-light focus:border-grey hover:cursor-pointer rounded-lg font-bold', placeholder: 'What do you want to know?' }),
               _react2.default.createElement(
                 'button',
-                { className: 'self-end px-4 py-2 text-green-dark hover:text-green-lightest focus:text-green-lightest rounded bg-green-lightest hover:bg-green focus:bg-green font-bold' },
-                'Submit'
+                { className: 'self-end px-4 py-2 text-green hover:text-green-lightest focus:text-green-lightest rounded bg-white hover:bg-green focus:bg-green border border-green-light font-bold' },
+                'Send',
+                _react2.default.createElement('i', { className: 'far fa-paper-plane ml-2' })
               )
             )
           )
@@ -1015,7 +1012,7 @@ var Card = function Card(_ref) {
   var children = _ref.children,
       className = _ref.className;
 
-  var classNames = ['bg-white', 'shadow'];
+  var classNames = ['bg-white'];
   if (className) {
     classNames.push(className);
   }
@@ -1213,4 +1210,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.9f95ef06.js.map
+//# sourceMappingURL=static.716d39a4.js.map
