@@ -47,7 +47,7 @@ export default withSiteData(() => (
     <Container padding={0}>
       <Row className="-mx-4">
         <Col md="1/2" className="px-4 flex flex-col">
-          <Card className="border-t-4 border-green mb-8 pt-4 px-4 flex-grow">
+          <Card className="border-t-4 border-green mb-16 pt-4 px-4 flex-grow">
             <h3 className="text-green-dark tracking-wide text-sm font-semibold uppercase mb-8">Employment</h3>
             <div className="mb-4 flex align-leading">
               <a href="https://www.mmbr.io/" target="_blank" rel="noopener noreferrer" alt="MMBRI.IO">
@@ -102,7 +102,7 @@ export default withSiteData(() => (
           </Card>
         </Col>
         <Col md="1/2" className="px-4 flex flex-col">
-          <Card className="border-t-4 border-blue mb-8 pt-4 px-4 flex-grow">
+          <Card className="border-t-4 border-blue mb-16 pt-4 px-4 flex-grow">
             <h3 className="text-blue-dark tracking-wide text-sm font-semibold uppercase mb-8">Skills</h3>
             <div className="flex flex-wrap align-start justify-start leading-normal">
               { languages.map(l => <Badge color="green">{l}</Badge>)}
@@ -112,7 +112,7 @@ export default withSiteData(() => (
               { patterns.map(a => <Badge color="purple">{a}</Badge>)}
             </div>
           </Card>
-          <Card className="border-t-4 border-red mb-8 pt-4 px-4 flex-grow">
+          <Card className="border-t-4 border-red mb-16 pt-4 px-4 flex-grow">
             <h3 className="text-red-dark tracking-wide text-sm font-semibold uppercase mb-8">Education</h3>
             <div className="mb-4 flex align-leading">
               <a href="https://www.ucalgary.ca/" target="_blank" rel="noopener noreferrer" alt="University of Calgary">
@@ -143,7 +143,7 @@ export default withSiteData(() => (
       </Row>
     </Container>
     <Container className="flex-1 flex-col">
-      <Card className="border-t-4 border-orange mb-8 pt-4 px-4 flex-1 h-full">
+      <Card className="border-t-4 border-orange mb-16 pt-4 px-4 flex-1 h-full">
         <h3 className="text-orange-dark tracking-wide text-sm font-semibold uppercase mb-8">About me</h3>
         <Row className="-mx-4">
           <Col md="1/2" className="px-4" >
@@ -171,6 +171,9 @@ export default withSiteData(() => (
               <button className="self-end px-4 py-2 text-green hover:text-green-lightest focus:text-green-lightest rounded bg-white hover:bg-green focus:bg-green border border-green-light font-bold">Send<i className="far fa-paper-plane ml-2" /></button>
             </form>
           </Col>
+        </Row>
+        <Row className="my-32 text-grey text-xs uppercase">
+           Copyright © 2018 Mark Polivchuk. All rights reserved.
         </Row>
       </Card>
     </Container>

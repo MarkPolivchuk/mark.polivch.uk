@@ -514,7 +514,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
           { md: '1/2', className: 'px-4 flex flex-col' },
           _react2.default.createElement(
             _application.Card,
-            { className: 'border-t-4 border-green mb-8 pt-4 px-4 flex-grow' },
+            { className: 'border-t-4 border-green mb-16 pt-4 px-4 flex-grow' },
             _react2.default.createElement(
               'h3',
               { className: 'text-green-dark tracking-wide text-sm font-semibold uppercase mb-8' },
@@ -616,7 +616,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
           { md: '1/2', className: 'px-4 flex flex-col' },
           _react2.default.createElement(
             _application.Card,
-            { className: 'border-t-4 border-blue mb-8 pt-4 px-4 flex-grow' },
+            { className: 'border-t-4 border-blue mb-16 pt-4 px-4 flex-grow' },
             _react2.default.createElement(
               'h3',
               { className: 'text-blue-dark tracking-wide text-sm font-semibold uppercase mb-8' },
@@ -664,7 +664,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
           ),
           _react2.default.createElement(
             _application.Card,
-            { className: 'border-t-4 border-red mb-8 pt-4 px-4 flex-grow' },
+            { className: 'border-t-4 border-red mb-16 pt-4 px-4 flex-grow' },
             _react2.default.createElement(
               'h3',
               { className: 'text-red-dark tracking-wide text-sm font-semibold uppercase mb-8' },
@@ -723,7 +723,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
       { className: 'flex-1 flex-col' },
       _react2.default.createElement(
         _application.Card,
-        { className: 'border-t-4 border-orange mb-8 pt-4 px-4 flex-1 h-full' },
+        { className: 'border-t-4 border-orange mb-16 pt-4 px-4 flex-1 h-full' },
         _react2.default.createElement(
           'h3',
           { className: 'text-orange-dark tracking-wide text-sm font-semibold uppercase mb-8' },
@@ -768,6 +768,11 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
               )
             )
           )
+        ),
+        _react2.default.createElement(
+          _tailwindcss.Row,
+          { className: 'my-32 text-grey text-xs uppercase' },
+          'Copyright \xA9 2018 Mark Polivchuk. All rights reserved.'
         )
       )
     )
@@ -1210,4 +1215,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.716d39a4.js.map
+//# sourceMappingURL=static.44438dbe.js.map
