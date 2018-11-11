@@ -25,7 +25,7 @@ export default withSiteData(() => (
               </div>
             </Col>
             <Col md="1/4" className="text-center md:text-left">
-              <div className="flex justify-center md:justify-end items-center h-full py-2">
+              <div className="flex justify-center md:justify-end items-center h-full py-4">
                 <a href="https://github.com/MarkPolivchuk" target="_blank" rel="noopener noreferrer" alt="Github">
                   <i className="fab fa-2x mx-4 fa-github text-grey-darkest hover:text-black" />
                 </a>
@@ -49,7 +49,7 @@ export default withSiteData(() => (
         <Col md="1/2" className="px-4 flex flex-col">
           <Card className="border-t-4 border-green mb-16 pt-4 px-4 flex-grow">
             <h3 className="text-green-dark tracking-wide text-sm font-semibold uppercase mb-8">Employment</h3>
-            <div className="mb-4 flex align-leading">
+            <div className="mb-6 flex align-leading">
               <a href="https://www.mmbr.io/" target="_blank" rel="noopener noreferrer" alt="MMBRI.IO">
                 <img src="/assets/img/mmbr.jpg" className="h-12 w-12 rounded inline-block mr-4 border border-grey-light" alt="MMBR.IO" />
               </a>
@@ -64,7 +64,7 @@ export default withSiteData(() => (
 
               </div>
             </div>
-            <div className="mb-4 flex align-leading">
+            <div className="mb-6 flex align-leading">
               <a href="https://www.farcast.com/" target="_blank" rel="noopener noreferrer" alt="Farcast">
                 <img src="/assets/img/farcast.png" className="h-12 w-12 rounded inline-block mr-4 border border-grey-light" alt="Farcast" />
               </a>
@@ -76,7 +76,7 @@ export default withSiteData(() => (
                 <IconLabel label="Developed web apps in Node" icon="node-js" iconSet="fab" />
               </div>
             </div>
-            <div className="mb-4 flex align-leading">
+            <div className="mb-6 flex align-leading">
               <a href="https://www.gpspolice.com/" target="_blank" rel="noopener noreferrer" alt="GPS Police">
                 <img src="/assets/img/gps.png" className="h-12 w-12 rounded inline-block mr-4 border border-grey-light" alt="GPS Police" />
               </a>
@@ -88,7 +88,7 @@ export default withSiteData(() => (
                 <IconLabel label="Developed web clients in React" icon="react" iconSet="fab" />
               </div>
             </div>
-            <div className="mb-4 flex align-leading">
+            <div className="mb-6 flex align-leading">
               <a href="https://hbi.ucalgary.ca//" target="_blank" rel="noopener noreferrer" alt="Hotchkiss Brain Institute">
                 <img src="/assets/img/hbi.jpeg" className="h-12 w-12 rounded inline-block mr-4 border border-grey-light" alt="Hotchkiss Brain Institute" />
               </a>
@@ -114,7 +114,7 @@ export default withSiteData(() => (
           </Card>
           <Card className="border-t-4 border-red mb-16 pt-4 px-4 flex-grow">
             <h3 className="text-red-dark tracking-wide text-sm font-semibold uppercase mb-8">Education</h3>
-            <div className="mb-4 flex align-leading">
+            <div className="mb-6 flex align-leading">
               <a href="https://www.ucalgary.ca/" target="_blank" rel="noopener noreferrer" alt="University of Calgary">
                 <img src="/assets/img/uofc.jpg" className="h-12 w-12 rounded inline-block mr-4 border border-grey-light" alt="University of Calgary" />
               </a>
@@ -128,7 +128,7 @@ export default withSiteData(() => (
                 <IconLabel label="Minored in Pure Math" icon="superscript" />
               </div>
             </div>
-            <div className="mb-4 flex align-leading">
+            <div className="mb-6 flex align-leading">
               <a href="http://schools.cbe.ab.ca/b816/" target="_blank" rel="noopener noreferrer" alt="Western Canada High School">
                 <img src="/assets/img/wchs.png" className="h-12 w-12 rounded inline-block mr-4 border border-grey-light" alt="Western Canada High School" />
               </a>

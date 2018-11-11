@@ -481,7 +481,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
               { md: '1/4', className: 'text-center md:text-left' },
               _react2.default.createElement(
                 'div',
-                { className: 'flex justify-center md:justify-end items-center h-full py-2' },
+                { className: 'flex justify-center md:justify-end items-center h-full py-4' },
                 _react2.default.createElement(
                   'a',
                   { href: 'https://github.com/MarkPolivchuk', target: '_blank', rel: 'noopener noreferrer', alt: 'Github' },
@@ -522,7 +522,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'mb-4 flex align-leading' },
+              { className: 'mb-6 flex align-leading' },
               _react2.default.createElement(
                 'a',
                 { href: 'https://www.mmbr.io/', target: '_blank', rel: 'noopener noreferrer', alt: 'MMBRI.IO' },
@@ -546,7 +546,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'mb-4 flex align-leading' },
+              { className: 'mb-6 flex align-leading' },
               _react2.default.createElement(
                 'a',
                 { href: 'https://www.farcast.com/', target: '_blank', rel: 'noopener noreferrer', alt: 'Farcast' },
@@ -568,7 +568,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'mb-4 flex align-leading' },
+              { className: 'mb-6 flex align-leading' },
               _react2.default.createElement(
                 'a',
                 { href: 'https://www.gpspolice.com/', target: '_blank', rel: 'noopener noreferrer', alt: 'GPS Police' },
@@ -590,7 +590,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'mb-4 flex align-leading' },
+              { className: 'mb-6 flex align-leading' },
               _react2.default.createElement(
                 'a',
                 { href: 'https://hbi.ucalgary.ca//', target: '_blank', rel: 'noopener noreferrer', alt: 'Hotchkiss Brain Institute' },
@@ -672,7 +672,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'mb-4 flex align-leading' },
+              { className: 'mb-6 flex align-leading' },
               _react2.default.createElement(
                 'a',
                 { href: 'https://www.ucalgary.ca/', target: '_blank', rel: 'noopener noreferrer', alt: 'University of Calgary' },
@@ -696,7 +696,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'mb-4 flex align-leading' },
+              { className: 'mb-6 flex align-leading' },
               _react2.default.createElement(
                 'a',
                 { href: 'http://schools.cbe.ab.ca/b816/', target: '_blank', rel: 'noopener noreferrer', alt: 'Western Canada High School' },
@@ -1215,4 +1215,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.6241c645.js.map
+//# sourceMappingURL=static.caa01c25.js.map
