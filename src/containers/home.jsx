@@ -172,9 +172,9 @@ export default withSiteData(() => (
             </form>
           </Col>
         </Row>
-        <Row className="my-32 text-grey text-xs uppercase">
-           Copyright © 2018 Mark Polivchuk. All rights reserved.
-        </Row>
+        <p className="mt-32 text-center md:text-left text-grey text-xs uppercase" >
+          Copyright © 2018 Mark Polivchuk. All rights reserved.
+        </p>
       </Card>
     </Container>
   </div>

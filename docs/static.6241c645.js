@@ -770,8 +770,8 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
           )
         ),
         _react2.default.createElement(
-          _tailwindcss.Row,
-          { className: 'my-32 text-grey text-xs uppercase' },
+          'p',
+          { className: 'mt-32 text-center md:text-left text-grey text-xs uppercase' },
           'Copyright \xA9 2018 Mark Polivchuk. All rights reserved.'
         )
       )
@@ -1215,4 +1215,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.44438dbe.js.map
+//# sourceMappingURL=static.6241c645.js.map
