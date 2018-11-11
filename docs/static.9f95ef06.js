@@ -245,7 +245,7 @@ var App = function App() {
       null,
       _react2.default.createElement(
         'div',
-        { className: 'content min-h-screen h-full bg-grey-lightest flex flex-col' },
+        { className: 'content min-h-screen h-full flex flex-col' },
         _react2.default.createElement(_reactStaticRoutes2.default, null),
         _react2.default.createElement(Footer, null)
       )
@@ -448,16 +448,10 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
     { className: 'flex-1 flex flex-col' },
     _react2.default.createElement(
       _tailwindcss.Container,
-      { padding: 0, className: 'bg-white shadow-lg sm:rounded-b-lg mb-8 pb-2 text-black' },
-      _react2.default.createElement(
-        'div',
-        { className: 'bg-cover-img border-b border-grey flex items-end justify-center md:justify-start' },
-        _react2.default.createElement('img', { src: '/assets/img/cover.jpg', className: 'profile-img rounded-full border-white border-4 shadow-md block md:inline-block -mb-24 mbmx-auto md:mx-8 ', alt: 'Profile' })
-      ),
+      { padding: 0, className: 'bg-white shadow sm:rounded-b-lg mb-8 pb-2 text-black' },
       _react2.default.createElement(
         'div',
         { className: 'flex my-2 flex-wrap' },
-        _react2.default.createElement('div', { className: 'w-full md:w-48 h-24 md:w-0 md:mx-8' }),
         _react2.default.createElement(
           'div',
           { className: 'w-auto flex-1' },
@@ -466,7 +460,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
             { className: 'h-full' },
             _react2.default.createElement(
               _tailwindcss.Col,
-              { md: '3/4', className: 'text-center md:text-left mx-4 md:mx-0' },
+              { md: '3/4', className: 'text-center md:text-left px-8' },
               _react2.default.createElement(
                 'div',
                 { className: 'flex flex-col justify-center h-full py-2' },
@@ -484,7 +478,7 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
             ),
             _react2.default.createElement(
               _tailwindcss.Col,
-              { md: '1/4', className: 'text-center md:text-left mx-4 md:mx-0 md:pr-4' },
+              { md: '1/4', className: 'text-center md:text-left px-4' },
               _react2.default.createElement(
                 'div',
                 { className: 'flex justify-center md:justify-end items-center h-full py-2' },
@@ -520,10 +514,10 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
           { md: '1/2', className: 'px-4 flex flex-col' },
           _react2.default.createElement(
             _application.Card,
-            { className: 'sm:rounded-lg border-t-4 border-yellow-dark mb-8 py-4 px-8 flex-grow' },
+            { className: 'sm:rounded-lg border-t-4 border-yellow-dark mb-8 p-4 flex-grow' },
             _react2.default.createElement(
               'h3',
-              { className: 'text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4 -mx-4' },
+              { className: 'text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4' },
               'Employment'
             ),
             _react2.default.createElement(
@@ -622,10 +616,10 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
           { md: '1/2', className: 'px-4 flex flex-col' },
           _react2.default.createElement(
             _application.Card,
-            { className: 'sm:rounded-lg border-t-4 border-blue mb-8 py-4 px-8 flex-grow' },
+            { className: 'sm:rounded-lg border-t-4 border-blue mb-8 p-4 flex-grow' },
             _react2.default.createElement(
               'h3',
-              { className: 'text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4 -mx-4' },
+              { className: 'text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4' },
               'Skills'
             ),
             _react2.default.createElement(
@@ -670,10 +664,10 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
           ),
           _react2.default.createElement(
             _application.Card,
-            { className: 'sm:rounded-lg border-t-4 border-red mb-8 py-4 px-8 flex-grow' },
+            { className: 'sm:rounded-lg border-t-4 border-red mb-8 p-4 flex-grow' },
             _react2.default.createElement(
               'h3',
-              { className: 'text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4 -mx-4' },
+              { className: 'text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4' },
               'Education'
             ),
             _react2.default.createElement(
@@ -733,10 +727,10 @@ exports.default = (0, _reactStatic.withSiteData)(function () {
       { className: 'flex-1 flex-col' },
       _react2.default.createElement(
         _application.Card,
-        { className: 'sm:rounded-t-lg border-t-4 border-orange pt-4 px-8 pb-16 flex-1 h-full' },
+        { className: 'sm:rounded-lg border-t-4 border-orange mb-8 p-4 flex-1 h-full' },
         _react2.default.createElement(
           'h3',
-          { className: 'text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4 -mx-4' },
+          { className: 'text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4' },
           'About me'
         ),
         _react2.default.createElement(
@@ -1021,7 +1015,7 @@ var Card = function Card(_ref) {
   var children = _ref.children,
       className = _ref.className;
 
-  var classNames = ['bg-white', 'shadow-lg'];
+  var classNames = ['bg-white', 'shadow'];
   if (className) {
     classNames.push(className);
   }
@@ -1219,4 +1213,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.e0fbab74.js.map
+//# sourceMappingURL=static.9f95ef06.js.map

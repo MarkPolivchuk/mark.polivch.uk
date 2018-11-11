@@ -14,7 +14,7 @@ const Footer = () => (<div />
 const App = () => (
   <Router>
     <div>
-      <div className="content min-h-screen h-full bg-grey-lightest flex flex-col">
+      <div className="content min-h-screen h-full flex flex-col">
         <Routes />
         <Footer />
       </div>

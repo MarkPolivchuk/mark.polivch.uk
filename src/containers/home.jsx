@@ -12,24 +12,19 @@ const patterns = ['MVC', 'MVVM', 'UI', 'UX', 'REST'];
 
 export default withSiteData(() => (
   <div className="flex-1 flex flex-col">
-    <Container padding={0} className="bg-white shadow-lg sm:rounded-b-lg mb-8 pb-2 text-black">
-      <div className="bg-cover-img border-b border-grey flex items-end justify-center md:justify-start">
-        <img src="/assets/img/cover.jpg" className="profile-img rounded-full border-white border-4 shadow-md block md:inline-block -mb-24 mbmx-auto md:mx-8 " alt="Profile" />
-      </div>
-
+    <Container padding={0} className="bg-white shadow sm:rounded-b-lg mb-8 pb-2 text-black">
       <div className="flex my-2 flex-wrap">
-        <div className="w-full md:w-48 h-24 md:w-0 md:mx-8" />
         <div className="w-auto flex-1">
           <Row className="h-full">
-            <Col md="3/4" className="text-center md:text-left mx-4 md:mx-0">
+            <Col md="3/4" className="text-center md:text-left px-8">
               <div className="flex flex-col justify-center h-full py-2">
                 <h1 className="text-4xl text-black">Mark Polivchuk</h1>
                 <p className="text-darker opacity-75 pt-0 text-lg font-thin leading-normal">
-            Software Developer / Calgary, AB
+                  Software Developer / Calgary, AB
                 </p>
               </div>
             </Col>
-            <Col md="1/4" className="text-center md:text-left mx-4 md:mx-0 md:pr-4">
+            <Col md="1/4" className="text-center md:text-left px-4">
               <div className="flex justify-center md:justify-end items-center h-full py-2">
                 <a href="https://github.com/MarkPolivchuk" target="_blank" rel="noopener noreferrer" alt="Github">
                   <i className="fab fa-2x mx-4 fa-github text-grey-darkest hover:text-black" />
@@ -47,18 +42,13 @@ export default withSiteData(() => (
       </div>
 
     </Container>
-    {/* <Container className="py-24 px-16 text-center ">
-      <blockquote className="my-24">
-        <h1 className="text-grey-darker tracking-wide text-5xl test-light italic mb-4"><span className="text-grey m-4">&ldquo;</span>Mark is a great developer<span className="text-grey m-4">&rdquo;</span></h1>
-        <p className="text-grey text-lg font-bold ml-32">- Mark</p>
-      </blockquote>
-    </Container> */}
+
 
     <Container padding={0}>
       <Row className="-mx-4">
         <Col md="1/2" className="px-4 flex flex-col">
-          <Card className="sm:rounded-lg border-t-4 border-yellow-dark mb-8 py-4 px-8 flex-grow">
-            <h3 className="text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4 -mx-4">Employment</h3>
+          <Card className="sm:rounded-lg border-t-4 border-yellow-dark mb-8 p-4 flex-grow">
+            <h3 className="text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4">Employment</h3>
             <div className="mb-4 flex align-leading">
               <a href="https://www.mmbr.io/" target="_blank" rel="noopener noreferrer" alt="MMBRI.IO">
                 <img src="/assets/img/mmbr.jpg" className="h-12 w-12 rounded inline-block mr-2 border border-grey-light" alt="MMBR.IO" />
@@ -112,8 +102,8 @@ export default withSiteData(() => (
           </Card>
         </Col>
         <Col md="1/2" className="px-4 flex flex-col">
-          <Card className="sm:rounded-lg border-t-4 border-blue mb-8 py-4 px-8 flex-grow">
-            <h3 className="text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4 -mx-4">Skills</h3>
+          <Card className="sm:rounded-lg border-t-4 border-blue mb-8 p-4 flex-grow">
+            <h3 className="text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4">Skills</h3>
             <div className="flex flex-wrap align-start justify-start leading-normal">
               { languages.map(l => <Badge color="green">{l}</Badge>)}
               { frameworks.map(f => <Badge color="teal">{f}</Badge>)}
@@ -122,8 +112,8 @@ export default withSiteData(() => (
               { patterns.map(a => <Badge color="purple">{a}</Badge>)}
             </div>
           </Card>
-          <Card className="sm:rounded-lg border-t-4 border-red mb-8 py-4 px-8 flex-grow">
-            <h3 className="text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4 -mx-4">Education</h3>
+          <Card className="sm:rounded-lg border-t-4 border-red mb-8 p-4 flex-grow">
+            <h3 className="text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4">Education</h3>
             <div className="mb-4 flex align-leading">
               <a href="https://www.ucalgary.ca/" target="_blank" rel="noopener noreferrer" alt="University of Calgary">
                 <img src="/assets/img/uofc.jpg" className="h-12 w-12 rounded inline-block mr-2 border border-grey-light" alt="University of Calgary" />
@@ -155,10 +145,10 @@ export default withSiteData(() => (
       </Row>
     </Container>
     <Container className="flex-1 flex-col">
-      <Card className="sm:rounded-t-lg border-t-4 border-orange pt-4 px-8 pb-16 flex-1 h-full">
-        <h3 className="text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4 -mx-4">About me</h3>
+      <Card className="sm:rounded-lg border-t-4 border-orange mb-8 p-4 flex-1 h-full">
+        <h3 className="text-grey-darker tracking-wide text-sm font-semibold uppercase mb-4">About me</h3>
         <Row className="-mx-4">
-          <Col md="1/2" className="px-4">
+          <Col md="1/2" className="px-4" >
             <p className="leading-normal text-black mb-4">
               I am a software developer with a strong interest in the user-facing side of applications.
               Front-end development has so many interesting challenges, like visualizing data in a way
