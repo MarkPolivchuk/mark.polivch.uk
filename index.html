@@ -271,9 +271,9 @@
             </div>
             <div class="w-full md:w-1/2 px-4">
               <form action="https://script.google.com/macros/s/AKfycbwgHfUIMmHceM4qDsY6sLPTtaT9fPXrgVxdZZ56ISOE8VUHdVc/exec" method="POST" class="flex flex-col h-full">
-                <input type="email" class="mb-4 p-4 bg-grey-lightest focus:bg-grey-lightest border-2 border-grey-lighter hover:border-grey-light focus:border-grey hover:cursor-pointer rounded-lg font-bold" placeholder="Email" >
-                <input type="text" class="mb-4 p-4 bg-grey-lightest focus:bg-grey-lightest border-2 border-grey-lighter hover:border-grey-light focus:border-grey hover:cursor-pointer rounded-lg font-bold" placeholder="Subject" >
-                <textarea name="body" ows="6" class="flex-grow mb-4 p-4 bg-grey-lightest focus:bg-grey-lightest border-2 border-grey-lighter hover:border-grey-light focus:border-grey hover:cursor-pointer rounded-lg font-bold" placeholder="What do you want to know?" ></textarea>
+                <input required name="email" type="email" class="mb-4 p-4 bg-grey-lightest focus:bg-grey-lightest border-2 border-grey-lighter hover:border-grey-light focus:border-grey hover:cursor-pointer rounded-lg font-bold" placeholder="Email" >
+                <input required name="subject" type="text" class="mb-4 p-4 bg-grey-lightest focus:bg-grey-lightest border-2 border-grey-lighter hover:border-grey-light focus:border-grey hover:cursor-pointer rounded-lg font-bold" placeholder="Subject" >
+                <textarea required name="body" ows="6" class="flex-grow mb-4 p-4 bg-grey-lightest focus:bg-grey-lightest border-2 border-grey-lighter hover:border-grey-light focus:border-grey hover:cursor-pointer rounded-lg font-bold" placeholder="What do you want to know?" ></textarea>
                 <button class="self-end px-4 py-2 text-green hover:text-green-lightest focus:text-green-lightest rounded bg-white hover:bg-green focus:bg-green border border-green-light font-bold">Send<i class="far fa-paper-plane ml-2" ></i></button>
             </form>
           </div>
