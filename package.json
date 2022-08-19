@@ -1,16 +1,24 @@
 {
-  "name": "portfolio",
-  "version": "1.0.1",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "mark.polivch.uk",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "parcel watch ./css/styles.tailwind.css --out-dir ./css --out-file compiled.css"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "extract-text-webpack-plugin": "^3.0.2",
-    "node-sass": "^4.7.2",
-    "parcel": "^1.12.3",
-    "sass-loader": "^6.0.6",
-    "tailwindcss": "^0.6.1"
+    "@types/node": "18.7.8",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "typescript": "4.7.4"
   }
 }
