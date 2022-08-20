@@ -22,18 +22,12 @@ const Home: NextPage = () => {
           </p>
         </section>
         <section className="text-center bg-blue-500 min-h-screen flex flex-1 flex-col justify-center items-center p-4">
-          <Heading>Mark Polivchuk</Heading>
-
-          <p className="text-white text-2xl my-4">
-            Senior software developer from Calgary, AB
-          </p>
+          <Heading>Cats</Heading>
+          <p className="text-white text-2xl my-4">He has two</p>
         </section>
         <section className="text-center bg-red-500 min-h-screen flex flex-1 flex-col justify-center items-center p-4">
-          <Heading>Mark Polivchuk</Heading>
-
-          <p className="text-white text-2xl my-4">
-            Senior software developer from Calgary, AB
-          </p>
+          <Heading>Bowling</Heading>
+          <p className="text-white text-2xl my-4">He does it sometimes</p>
         </section>
       </main>
     </div>
