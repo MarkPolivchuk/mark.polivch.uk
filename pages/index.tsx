@@ -1,5 +1,6 @@
-import type { NextPage } from "next";
-import Head from "next/head";
+import type {NextPage} from 'next';
+import Head from 'next/head';
+import {Heading} from '@components';
 
 const Home: NextPage = () => {
   return (
@@ -13,12 +14,27 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="text-center bg-black min-h-screen flex flex-1 flex-col justify-center items-center p-4">
-        <h1 className="text-white text-6xl font-bold">Mark Polivchuk</h1>
+      <main>
+        <section className="text-center bg-black min-h-screen flex flex-1 flex-col justify-center items-center p-4">
+          <Heading>Mark Polivchuk</Heading>
+          <p className="text-white text-2xl my-4">
+            Senior software developer from Calgary, AB
+          </p>
+        </section>
+        <section className="text-center bg-blue-500 min-h-screen flex flex-1 flex-col justify-center items-center p-4">
+          <Heading>Mark Polivchuk</Heading>
 
-        <p className="text-white text-2xl my-4">
-          Senior software developer from Calgary, AB
-        </p>
+          <p className="text-white text-2xl my-4">
+            Senior software developer from Calgary, AB
+          </p>
+        </section>
+        <section className="text-center bg-red-500 min-h-screen flex flex-1 flex-col justify-center items-center p-4">
+          <Heading>Mark Polivchuk</Heading>
+
+          <p className="text-white text-2xl my-4">
+            Senior software developer from Calgary, AB
+          </p>
+        </section>
       </main>
     </div>
   );
