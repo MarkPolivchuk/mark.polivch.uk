@@ -37,9 +37,9 @@ module.exports = {
             position: 'before',
           },
           {
-            pattern: '@*',
-            group: 'external',
-            position: 'after',
+            pattern: 'components/*',
+            group: 'internal',
+            position: 'before',
           },
         ],
         pathGroupsExcludedImportTypes: ['builtin'],

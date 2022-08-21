@@ -1,6 +1,10 @@
 import type {NextPage} from 'next';
 import Head from 'next/head';
-import {Heading} from '@components';
+import {Bowling} from 'components/Bowling';
+import {Cats} from 'components/Cats';
+import {Work} from 'components/Work';
+import {Landing} from 'components/Landing';
+import {Location} from 'components/Location';
 
 const Home: NextPage = () => {
   return (
@@ -15,20 +19,11 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <section className="text-center bg-black min-h-screen flex flex-1 flex-col justify-center items-center p-4">
-          <Heading>Mark Polivchuk</Heading>
-          <p className="text-white text-2xl my-4">
-            Senior software developer from Calgary, AB
-          </p>
-        </section>
-        <section className="text-center bg-blue-500 min-h-screen flex flex-1 flex-col justify-center items-center p-4">
-          <Heading>Cats</Heading>
-          <p className="text-white text-2xl my-4">He has two</p>
-        </section>
-        <section className="text-center bg-red-500 min-h-screen flex flex-1 flex-col justify-center items-center p-4">
-          <Heading>Bowling</Heading>
-          <p className="text-white text-2xl my-4">He does it sometimes</p>
-        </section>
+        <Landing />
+        <Location />
+        <Work />
+        <Cats />
+        <Bowling />
       </main>
     </div>
   );
